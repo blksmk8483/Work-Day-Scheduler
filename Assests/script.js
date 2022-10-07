@@ -38,11 +38,11 @@ var fiveButton = document.getElementById("button5");
 
 // // Version 1
 
-function renderLastText () {
+function renderLastText() {
     var eightInput = localStorage.getItem("8am");
     boxEight.textContent = eightInput;
 
-    eightButton.addEventListener("click", function(event) {
+    eightButton.addEventListener("click", function (event) {
         event.preventDefault();
         var eightInput = boxEight.value;
         localStorage.setItem("8am", eightInput)
@@ -51,7 +51,7 @@ function renderLastText () {
     var nineInput = localStorage.getItem("9am");
     boxNine.textContent = nineInput;
 
-    nineButton.addEventListener("click", function(event) {
+    nineButton.addEventListener("click", function (event) {
         event.preventDefault();
         var nineInput = boxNine.value;
         localStorage.setItem("9am", nineInput)
@@ -60,7 +60,7 @@ function renderLastText () {
     var tenInput = localStorage.getItem("10am");
     boxTen.textContent = tenInput;
 
-    tenButton.addEventListener("click", function(event) {
+    tenButton.addEventListener("click", function (event) {
         event.preventDefault();
         var tenInput = boxTen.value;
         localStorage.setItem("10am", tenInput)
@@ -69,7 +69,7 @@ function renderLastText () {
     var elevenInput = localStorage.getItem("11am");
     boxEleven.textContent = elevenInput;
 
-    elevenButton.addEventListener("click", function(event) {
+    elevenButton.addEventListener("click", function (event) {
         event.preventDefault();
         var elevenInput = boxEleven.value;
         localStorage.setItem("11am", elevenInput)
@@ -78,7 +78,7 @@ function renderLastText () {
     var twelveInput = localStorage.getItem("12pm");
     boxTwelve.textContent = twelveInput;
 
-    twelveButton.addEventListener("click", function(event) {
+    twelveButton.addEventListener("click", function (event) {
         event.preventDefault();
         var twelveInput = boxEleven.value;
         localStorage.setItem("12pm", twelveInput)
@@ -87,7 +87,7 @@ function renderLastText () {
     var oneInput = localStorage.getItem("1pm");
     boxOne.textContent = oneInput;
 
-    oneButton.addEventListener("click", function(event) {
+    oneButton.addEventListener("click", function (event) {
         event.preventDefault();
         var oneInput = boxOne.value;
         localStorage.setItem("1pm", oneInput)
@@ -96,7 +96,7 @@ function renderLastText () {
     var twoInput = localStorage.getItem("2pm");
     boxTwo.textContent = twoInput;
 
-    twoButton.addEventListener("click", function(event) {
+    twoButton.addEventListener("click", function (event) {
         event.preventDefault();
         var twoInput = boxOne.value;
         localStorage.setItem("2pm", twoInput)
@@ -105,7 +105,7 @@ function renderLastText () {
     var threeInput = localStorage.getItem("3pm");
     boxThree.textContent = threeInput;
 
-    threeButton.addEventListener("click", function(event) {
+    threeButton.addEventListener("click", function (event) {
         event.preventDefault();
         var threeInput = boxThree.value;
         localStorage.setItem("3pm", threeInput)
@@ -114,7 +114,7 @@ function renderLastText () {
     var fourInput = localStorage.getItem("4pm");
     boxFour.textContent = fourInput;
 
-    fourButton.addEventListener("click", function(event) {
+    fourButton.addEventListener("click", function (event) {
         event.preventDefault();
         var fourInput = boxOne.value;
         localStorage.setItem("4pm", fourInput)
@@ -123,7 +123,7 @@ function renderLastText () {
     var fiveInput = localStorage.getItem("5pm");
     boxFive.textContent = fiveInput;
 
-    fiveButton.addEventListener("click", function(event) {
+    fiveButton.addEventListener("click", function (event) {
         event.preventDefault();
         var fiveInput = boxOne.value;
         localStorage.setItem("5pm", fiveInput)
