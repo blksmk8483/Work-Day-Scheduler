@@ -133,3 +133,39 @@ function renderLastText() {
 
 
 renderLastText();
+
+
+// // foreach
+
+// const timeBlockColor = document.querySelectorAll('.textComment')
+
+// timeBlockColor.forEach(function(){
+//     const textCommentEl = document.querySelector('.textComment')
+//         if (textCommentEl.class < currentTime) {
+//             textCommentEl.setAttribute("class", "past");
+//         }
+//         else if (textCommentEl.class === currentTime) {
+//             textCommentEl.setAttribute("class", "present");
+//             console.log(currentTime)
+//         }
+//         else {textCommentEl.setAttribute("class", "future");
+//             }
+
+
+// });
+
+
+
+// for .... of
+const timeBlockColor = document.querySelectorAll('.textComment');
+
+for (const block of timeBlockColor) {
+    if (block < currentTime) {
+        block.setAttribute("class", "past");
+    }
+    else if (block === currentTime) {
+        block.setAttribute("class", "present");
+    }
+    else {block.setAttribute("class", "future");
+}
+};
